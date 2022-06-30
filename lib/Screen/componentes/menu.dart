@@ -27,7 +27,7 @@ class Menu extends StatelessWidget {
                 onPressed: () {
                   if (comidas.isNotEmpty) {
                     Navigator.of(context)
-                        .pushNamed(Rotas.Compras, arguments: comidas);
+                        .pushNamed(Rotas.Compras);
                   } 
                 },
                 icon: const Icon(Icons.shopping_cart),
